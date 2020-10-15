@@ -1,0 +1,339 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none !important;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	color:#ffffff;
+	font-family: 'Lato', sans-serif;
+}
+/* =============Start Reusable class ======== */
+a{
+	text-decoration: none;
+}
+.btn-primary{
+	background:#ffc61a;
+	color:#000;
+	padding:3px 18px;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-size:20px;
+	margin-bottom:20px;
+}
+.btn-primary:hover{
+	background: #000000;
+	color:#fff;
+}
+.prmr-color{
+	color:#ffc61a;
+}
+.btn-dark{
+	background: #000000;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+	font-size:18px;
+}
+.btn-dark:hover{
+	background:#ffc61a;
+	color:#000;
+}
+.clearfix::after{
+	content:"";
+	clear:both;
+	display:block;
+	visibility: hidden;
+
+}
+.section-title{
+	padding:70px 0 150px;
+}
+.section-title h3{
+	font-weight: 600;
+}
+.section-title h2{
+	font-weight: 900;
+	color:#000;
+}
+/* =============End Reusable class ======== */
+
+
+/*================= header section started====================== */
+header{
+	background:url(../img/home-bg.png) no-repeat;
+	padding-top:30px;
+	height:739px;
+}
+/* .navbar-brand img{
+	width:7rem;
+	height:2.5rem;
+} */
+.navbar-dark .navbar-nav .nav-link {
+	color:#fff;
+	font-weight: 700;
+	font-size:17px;
+	text-transform: uppercase;
+	padding:4px 15px;
+}
+.navbar-dark .navbar-nav .nav-link:hover,.navbar-dark .navbar-nav .nav-link.active{
+	color:#000;
+	background-color: #ffc61a;
+	border-radius:10px;
+}
+.hero-content h1{
+	font-weight: 900;
+}
+.hero-content p{
+	letter-spacing:5px;
+	font-weight: 700;
+}
+.hero-section img{
+	padding-top:90px;
+}
+/* =============Start Cab Section style=================== */
+
+.cab{
+	background-color: #ffc61a;
+	color:#101010;
+	padding:150px 0 50px;
+
+}
+.cab-right .form-header{
+	background:#000; 
+	color:#fff;
+}
+.cab .cab-left h4{
+	font-weight: 700;
+	font-size:35px;
+}
+.cab .cab-left h1{
+	font-size:50px;
+	font-weight: 900;
+}
+.cab-right{
+	width:330px;
+	background:#ffffff;
+}
+.cab .cab-right form{
+	text-align:center;
+	padding:20px 20px;
+}
+.cab .cab-right form input{
+	padding:5px 0 5px 10px;
+	margin-bottom:15px; 
+	width:49%;
+	display:inline-block;
+	border:none;
+	border-bottom:3px solid #e4e4e4;
+}
+.vehicles-option, option{
+	border:none;
+	border-bottom:3px solid #e4e4e4;
+	padding:5px 0 5px 10px;
+	margin-bottom:15px; 
+}
+.cab .cab-right form input:hover{
+	border-color: #ffc61a;
+}
+.cab .cab-right form .vehicles-option:hover{
+	border-color: #ffc61a;
+}
+
+
+
+
+
+
+
+
+/* =============End Cab Section style=================== */
+/* =============Start Tariff Section style=================== */
+.tariff{
+	padding-bottom:100px;
+}
+.white-box{
+	color:#000;
+	background:#f5f4f2;
+	text-align:center; 
+	width:300px;
+}
+#yellow-box{
+	background:#ffc61a;
+	position: relative;
+}
+#yellow-box .price{
+	color:#000;
+}
+#yellow-box .star{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+#yellow-box .btn-dark{
+	margin-bottom:20px;
+	padding:5px 18px;
+}
+.white-box img{
+	margin-top:-100px;
+}
+.white-box h3{
+	text-transform: uppercase;
+	font-size:30px;
+	font-weight: 900;
+	padding-bottom:10px;
+}
+.white-box h2{
+	color:#ffc61a;
+	font-weight: 900;
+	padding:10px 0;
+}
+
+
+/* =============End Tariff Section style=================== */
+/* =============Start Why choose us Section style=================== */
+.choose-as{
+	background:url(../img/service-bg.png) center right fixed;
+}
+.choose-as .section-title{
+	padding:100px 0 50px 0;
+}
+.choose-as .section-title h2{
+	color:#fff;
+}
+.choose-option{
+	display:flex;
+	color:#fff;
+	padding-bottom:50px;
+}
+.choose-option img{
+	margin-right:20px;
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+}
+.choose-option h2{
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	color:#ffc61a;
+	font-size:25px;
+}
+
+
+/* =============End Why choose us Section style=================== */
+/* =============Start Download  Section style=================== */
+.Download-section{
+	color:#000;
+
+}
+.Download-section .section-title{
+	padding-bottom:50px;
+}
+.download-img {
+	display: flex;
+	justify-content: space-around;
+}
+.download-img img{
+	width:49%;
+	height: auto;
+}
+/* =============End Download  Section style=================== */
+/* =============start Testimonial  Section style=================== */
+.testimonial{
+	background:url(../img/client-bg.png) no-repeat  ;
+	background-size: cover;
+	padding-bottom:50px;
+}
+.testimonial .section-title{
+	padding-bottom:50px;
+}
+.testimonial-content-wrapper{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.review-blurb{
+	padding:30px 35px ;
+	background:#000;
+	border-radius:50px;
+
+}
+.client-info{
+	display:flex;
+}
+.client-info img{
+	padding-right:10px;
+}
+.client-bio h3{
+	font-size:25px;
+	color:#ffc61a;
+	font-weight: 700;
+}
+/* ============End Testimonial   Section style=================== */
+/* ============start cta  Section style=================== */
+.cta{
+	background:#ffc61a;
+	color:#000;
+}
+
+.cta-content h4{
+	font-weight: 900;
+	font-size:60px;
+}
+
+/* ============End cta  Section style=================== */
+/* =============== Start Footer  Section style=================== */
+.footer{
+	background:url(../img/portfolio-bg.png) no-repeat center center/cover;
+}
+.widget-title h3{
+	text-transform: uppercase;
+	padding:20px 0;
+	font-weight: 700;
+	border-bottom: 5px solid #ffc61a;
+	margin:20px 0;
+}
+.widget-nav ul{
+	display:flex;
+
+}
+.widget-nav ul li{
+	list-style: none;
+	padding-right:15px;
+	color:#ffc61a;
+}
+.footer-bottom li{
+	list-style-type : none;
+	padding:5px 0;
+}
+.footer-bottom a{
+	text-decoration:none;
+	color:#fff;
+	padding-right:10px;
+	color:#ffc61a;
+
+
+}
+.footer-bottom i{
+	font-size:20px;
+}
+.widget-contact li{
+	margin-bottom:15px;
+}
+.widget-contact li i{
+	position: absolute;
+	font-size:20px;
+}
+.widget-contact li p{
+	position: relative;
+	margin-left:40px;
+	font-size:16px;
+}
+.footer-end{
+	background:#010101;
+}
+
+/* ============= End Footer   Section style=================== */

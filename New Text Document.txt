@@ -1,0 +1,26 @@
+	1re=======font==========
+1. primary font-lato\
+
+	font-family: 'Lato', sans-serif;
+
+2.secondary font- bebasneu bold
+
+	font-family: 'Bebas Neue', cursive;
+
+3.lato and bebasneu font cdn link: 
+
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+
+
+======color=====
+
+primary color:color:#ffc61a;
+secondary color:#131313    #1b1b1b  #ffc61a;(button)
+
+==========font size======
+1. creat browser default font size 10px or 62.5% =0.625rem for browser capablities
+
+	1rem = 10px;(custom)
+
+	
