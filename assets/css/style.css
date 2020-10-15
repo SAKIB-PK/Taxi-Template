@@ -129,6 +129,11 @@ header{
 	border:none;
 	border-bottom:3px solid #e4e4e4;
 }
+
+.cab .cab-right .form-control:focus{
+	outline:0;
+	box-shadow: none !important;
+}
 .vehicles-option, option{
 	border:none;
 	border-bottom:3px solid #e4e4e4;
